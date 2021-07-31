@@ -29,7 +29,7 @@ stages:
         pool:
           vmImage: 'windows-2019'
         steps:
-        - template: build.yml@edsonjrmorais/the-awesome-templates
+        - template: build.yml@the-awesome-templates
           parameters:
             parametroUm: $(PipelineVariableDentroDoGrupo)
             parametroDois: ${{variables.PipelineLocalVariable}}
