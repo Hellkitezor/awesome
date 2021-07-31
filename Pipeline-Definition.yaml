@@ -41,8 +41,8 @@ stages:
     displayName: Deploy
     jobs:      
       - deployment: DeployApproval
-        displayName: 'Approval Deploy To PRD'
-        environment: ApprovalGate
+	displayName: 'Approval Deploy To PRD'
+	environment: ApprovalGate
 		
       - job: DeployToPRD
         displayName: Deploy To PRD
