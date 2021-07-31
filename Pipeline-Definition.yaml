@@ -8,7 +8,6 @@ resources:
   repositories:
     - repository: the-awesome-templates
       type: github
-      ref: refs/heads/main
       name: AwesomeCompanyTemplates
       endpoint: ServiceConnectToGitHub
 
