@@ -8,8 +8,8 @@ resources:
   repositories:
     - repository: the-awesome-templates
       type: github
-      name: AwesomeCompanyTemplates
-      endpoint: edsonjrmorais
+      name: edsonjrmorais/the-awesome-templates
+      endpoint: ServiceConnectToGitHub
 
 trigger:
   branches:
