@@ -6,7 +6,7 @@ variables:
 
 resources:
   repositories:
-    - repository: awesome
+    - repository: Hellkitezor/awesome
       type: github
       name: Hellkitezor/awesome
       endpoint: ServiceConnectToGitHub
