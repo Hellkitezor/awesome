@@ -6,9 +6,9 @@ variables:
 
 resources:
   repositories:
-    - repository: awesome
+    - repository: the-awesome-templates
       type: github
-      name: Hellkitezor/awesome
+      name: edsonjrmorais/the-awesome-templates
       endpoint: ServiceConnectToGitHub
 
 trigger:
@@ -17,7 +17,7 @@ trigger:
     - main
   paths:
     include:
-    - Hellkitezor/awesome/Pipeline-Definition.yaml
+    - the-awesome-project/Pipeline-Definition.yaml
 
 stages:
   - stage: Build
@@ -28,7 +28,7 @@ stages:
         pool:
           vmImage: 'windows-2019'
         steps:
-        - template: build.yml@awesome
+        - template: build.yml@the-awesome-templates
           parameters:
             parametroUm: $(PipelineVariableDentroDoGrupo)
             parametroDois: ${{variables.PipelineLocalVariable}}
