@@ -8,7 +8,7 @@ resources:
   repositories:
     - repository: the-awesome-templates
       type: github
-      name: edsonjrmorais/the-awesome-templates
+      name: Hellkitezor/awesome
       endpoint: ServiceConnectToGitHub
 
 trigger:
