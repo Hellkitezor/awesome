@@ -9,7 +9,6 @@ resources:
     - repository: awesome
       type: github
       name: Hellkitezor/awesome
-      endpoint: ServiceConnectToGitHub
 
 trigger:
   branches:
