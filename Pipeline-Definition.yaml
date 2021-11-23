@@ -6,7 +6,7 @@ variables:
 
 resources:
   repositories:
-    - repository: Hellkitezor/awesome
+    - repository: awesome
       type: github
       name: Hellkitezor/awesome
       endpoint: ServiceConnectToGitHub
@@ -17,7 +17,7 @@ trigger:
     - main
   paths:
     include:
-    - the-awesome-project/Pipeline-Definition.yaml
+    - Hellkitezor-awesome/Pipeline-Definition.yaml
 
 stages:
   - stage: Build
