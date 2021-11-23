@@ -17,7 +17,7 @@ trigger:
     - main
   paths:
     include:
-    - Hellkitezor-awesome/Pipeline-Definition.yaml
+    - Hellkitezor/awesome/Pipeline-Definition.yaml
 
 stages:
   - stage: Build
@@ -28,7 +28,7 @@ stages:
         pool:
           vmImage: 'windows-2019'
         steps:
-        - template: build.yml@the-awesome-templates
+        - template: build.yml@awesome
           parameters:
             parametroUm: $(PipelineVariableDentroDoGrupo)
             parametroDois: ${{variables.PipelineLocalVariable}}
