@@ -14,7 +14,7 @@ variables:
 trigger:
   branches:
     include:
-    - main
+    - '*'
 #  paths:
 #    include:
 #    - awesome/Pipeline-Definition.yaml
