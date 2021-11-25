@@ -15,9 +15,9 @@ trigger:
   branches:
     include:
     - main
-  paths:
-    include:
-    - awesome/Pipeline-Definition.yaml
+#  paths:
+#    include:
+#    - awesome/Pipeline-Definition.yaml
 
 stages:
   - stage: Build
