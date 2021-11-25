@@ -14,10 +14,10 @@ variables:
 trigger:
   branches:
     include:
+    - main
+  paths:
+    include:
     - '*'
-#  paths:
-#    include:
-#    - awesome/Pipeline-Definition.yaml
 
 stages:
   - stage: Build
