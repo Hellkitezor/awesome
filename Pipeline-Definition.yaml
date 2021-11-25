@@ -17,7 +17,7 @@ trigger:
     - main
   paths:
     include:
-    - Pipeline-Definition.yaml
+    - '*'
 
 stages:
   - stage: Build
